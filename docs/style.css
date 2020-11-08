@@ -19,7 +19,7 @@ img#img {
 
 output{
 
-  width: 500px; 
+  /* width: 500px */; 
   height: 300px;
   margin-top: 30px;
   border-radius: 8px;
