@@ -44,7 +44,8 @@ if (window.FileReader) {
 
       reader.onload = (function(theFile) {
         return function(e) {
-          document.getElementById('image').innerHTML = ['<img id="img" crossorigin src="', e.target.result,'" title="', theFile.name, '" width="227"/>'].join('');
+//          document.getElementById('image').innerHTML = ['<img id="img" crossorigin src="', e.target.result,'" title="', theFile.name, '" width="227"/>'].join('');
+	  document.getElementById('image').innerHTML = ['<img id="img" crossorigin src="', e.target.result,'" title="', theFile.name, '"/>'].join('');
         };
       })(f);
 
